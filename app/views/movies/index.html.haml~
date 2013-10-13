@@ -16,7 +16,7 @@
   %thead
     %tr
       %th{class: "#{thClass('title')}"}= link_to "Movie Title", {:sort => "title"}
-      %th{class: "#{thClass('rating')}"}= link_to "Rating", {:sort => "rating"}
+      %th{class: "#{thClass('rating')}"}= link_to "Rating", {:sort => "rating"
       %th{class: "#{thClass('release_date')}"}= link_to "Release Date", {:sort => "release_date"}
       %th More Information
   %tbody

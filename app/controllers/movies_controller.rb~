@@ -7,6 +7,7 @@ class MoviesController < ApplicationController
   end
 
   def index
+  	debugger
   	# Creating the ratings field for use in check boxes and collection
 	  @all_ratings = ['G','PG', 'PG-13', 'R']
 	  # Initializing whether to pull from session, assuming new params passed in

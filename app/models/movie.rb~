@@ -2,4 +2,7 @@ class Movie < ActiveRecord::Base
 	def self.getRatings
 		Movie.find(:all, :select => "DISTINCT rating").collect{|x| x[:rating]}
 	end
+	def self.titleCapitalize
+		Movie.title = Movie.title.capitalize!
+	end
 end

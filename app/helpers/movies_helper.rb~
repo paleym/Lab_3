@@ -8,11 +8,4 @@ module MoviesHelper
 	  	return "hilite"
 	  end
   end
-  def checked?(item,parameter)
-    unless parameter == nil
-      parameter.include?(item)
-    else
-      false
-    end
-  end
 end
